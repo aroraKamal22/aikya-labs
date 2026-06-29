@@ -2,12 +2,6 @@
 
 const teamMembers = [
   {
-    name: "Kamal Arora",
-    role: "Co-Founder",
-    description: "Passionate about building innovative solutions and driving digital transformation for businesses.",
-    color: "from-indigo-500 to-purple-500",
-  },
-  {
     name: "Ritesh Kumar",
     role: "Co-Founder",
     description: "Expert in building scalable systems and delivering high-quality software solutions.",
@@ -20,7 +14,13 @@ const teamMembers = [
     color: "from-orange-500 to-amber-500",
   },
   {
-    name: "Karan Kharana",
+    name: "Kamal Arora",
+    role: "Co-Founder",
+    description: "Passionate about building innovative solutions and driving digital transformation for businesses.",
+    color: "from-indigo-500 to-purple-500",
+  },
+  {
+    name: "Karan Khurana",
     role: "Co-Founder",
     description: "Focused on building strong client relationships and driving business growth.",
     color: "from-pink-500 to-rose-500",

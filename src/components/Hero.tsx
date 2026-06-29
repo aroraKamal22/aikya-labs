@@ -2,27 +2,27 @@
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center relative hero-pattern pt-20">
-      <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="animate-fadeInUp">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6">
+    <section id="home" className="min-h-screen flex items-center relative hero-pattern pt-24 pb-12 md:pt-20 md:pb-0">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="animate-fadeInUp text-center lg:text-left">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full glass mb-4 sm:mb-6">
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-              <span className="text-sm text-gray-300">Trusted by Leading Healthcare Providers</span>
+              <span className="text-xs sm:text-sm text-gray-300">Trusted by Leading Healthcare Providers</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 sm:mb-6">
               Transform Your Business with{" "}
               <span className="gradient-text">Smart IT Solutions</span>
             </h1>
 
-            <p className="text-lg text-gray-400 mb-8 max-w-lg">
+            <p className="text-base sm:text-lg text-gray-400 mb-6 sm:mb-8 max-w-lg mx-auto lg:mx-0">
               We build powerful ERP systems, CRM solutions, modern websites, and handle your
               social media presence. Your success is our mission.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" className="btn-primary text-center">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+              <a href="#contact" className="btn-primary text-center justify-center">
                 Get Free Consultation
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -33,20 +33,20 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className="flex items-center gap-8 mt-12">
-              <div>
-                <div className="text-3xl font-bold gradient-text">50+</div>
-                <div className="text-sm text-gray-400">Projects Delivered</div>
+            <div className="grid grid-cols-3 gap-4 sm:gap-6 mt-8 sm:mt-12 max-w-md mx-auto lg:mx-0 lg:max-w-none lg:flex lg:items-center lg:gap-8">
+              <div className="text-center lg:text-left">
+                <div className="text-2xl sm:text-3xl font-bold gradient-text">50+</div>
+                <div className="text-xs sm:text-sm text-gray-400">Projects</div>
               </div>
-              <div className="w-px h-12 bg-gray-700"></div>
-              <div>
-                <div className="text-3xl font-bold gradient-text">100%</div>
-                <div className="text-sm text-gray-400">Client Satisfaction</div>
+              <div className="hidden lg:block w-px h-12 bg-gray-700"></div>
+              <div className="text-center lg:text-left">
+                <div className="text-2xl sm:text-3xl font-bold gradient-text">100%</div>
+                <div className="text-xs sm:text-sm text-gray-400">Satisfaction</div>
               </div>
-              <div className="w-px h-12 bg-gray-700"></div>
-              <div>
-                <div className="text-3xl font-bold gradient-text">24/7</div>
-                <div className="text-sm text-gray-400">Support</div>
+              <div className="hidden lg:block w-px h-12 bg-gray-700"></div>
+              <div className="text-center lg:text-left">
+                <div className="text-2xl sm:text-3xl font-bold gradient-text">24/7</div>
+                <div className="text-xs sm:text-sm text-gray-400">Support</div>
               </div>
             </div>
           </div>
